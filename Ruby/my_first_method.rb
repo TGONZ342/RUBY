@@ -1,10 +1,11 @@
-def first_method(text)
-	if (text.length > 10)
-		puts text.upcase
-	elsif (text.length < 10)
-	puts "I"M HAPPY TO BE HERE"
-	end
+why = ARGV.to_s
+
+def my_method (why)
+    if why.length > 10
+        puts why.upcase
+    else
+        puts "nil"
+    end
 end
 
-first_method (ARGV[0])
-
+my_method why
